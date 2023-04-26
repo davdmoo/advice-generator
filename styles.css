@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Manrope";
+  src: url(./assets/fonts/Manrope.ttf);
+  font-style: normal;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  min-height: 100vh;
+  font-family: "Manrope";
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(218, 23%, 16%);
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+p {
+  font-size: 14px;
+  letter-spacing: 4px;
+  color: hsl(150, 100%, 66%);
+}
+
+h1 {
+  font-size: 28px;
+  color: hsl(193, 38%, 86%);
+}
+
+main {
+  background-color: hsl(217, 19%, 24%);
+  text-align: center;
+  padding: 24px 24px 64px 24px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.pattern-divider {
+  object-fit: cover;
+  width: 100%;
+}
+
+.dice-container {
+  height: 56px;
+  width: 56px;
+  background-color: hsl(150, 100%, 66%);
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -28px;
+}
+
+.dice-container:hover {
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 8px;
+  color: hsl(193, 38%, 86%);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
