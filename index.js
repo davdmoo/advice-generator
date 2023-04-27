@@ -24,7 +24,7 @@ async function fetchData() {
     adviceIdHtml.innerHTML = `ADVICE #${adviceId}`;
 
     let adviceHtml = document.getElementById("advice");
-    adviceHtml.innerHTML = `${advice}`;
+    adviceHtml.innerHTML = `"${advice}"`;
 
     return responseData;
   } catch (error) {
