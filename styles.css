@@ -29,6 +29,7 @@ p {
 h1 {
   font-size: 28px;
   color: hsl(193, 38%, 86%);
+  font-weight: 800;
 }
 
 main {
@@ -46,6 +47,7 @@ main {
 .pattern-divider {
   object-fit: cover;
   width: 100%;
+  margin: 12px 0 12px 0;
 }
 
 .dice-container {
@@ -64,6 +66,8 @@ main {
 
 .dice-container:hover {
   cursor: pointer;
+  box-shadow: 0 0 20px 5px hsl(150, 100%, 66%);
+  border: 0px;
 }
 
 .attribution {
@@ -76,4 +80,10 @@ main {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width: 768px) {
+  main {
+    width: 500px;
+  }
 }

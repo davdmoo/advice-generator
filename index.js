@@ -21,10 +21,10 @@ async function fetchData() {
     const advice = responseData["slip"]["advice"];
 
     let adviceIdHtml = document.getElementById("advice-id");
-    adviceIdHtml.innerHTML = `<p>ADVICE #${adviceId}</p>`;
+    adviceIdHtml.innerHTML = `ADVICE #${adviceId}`;
 
     let adviceHtml = document.getElementById("advice");
-    adviceHtml.innerHTML = `<h1>${advice}</h1>`;
+    adviceHtml.innerHTML = `${advice}`;
 
     return responseData;
   } catch (error) {
